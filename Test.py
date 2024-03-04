@@ -13,7 +13,7 @@ def run_command(command):
         print(e.output)
 
 
-command_to_run = r'"C:\Users\sesa744271\Documents\TestComplete 15 Projects\Analyse_Build\Analyse_Build.pjs"/run'
+command_to_run = r'"C:\Users\SESA744271\PycharmProjects\CE Val\ModbusTCP'
 print(command_to_run)
 run_command(command_to_run)
 print("Hello World")
