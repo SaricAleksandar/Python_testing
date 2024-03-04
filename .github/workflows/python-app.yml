@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: Personal_PC
+    runs-on: Local_VM
 
     steps:
 
