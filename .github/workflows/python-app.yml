@@ -18,6 +18,11 @@ jobs:
     runs-on: self-hosted
 
     steps:
-
-    - name: Test with batch
-      run: .\batch.bat
+      - name: Job Startup
+        run: |
+          echo "Starting job [Event=${{ github.event_name }}]"
+          echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+          
+      - name: Test with batch
+        shell: pwsh
+        run: .\batch.bat
