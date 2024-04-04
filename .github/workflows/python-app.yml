@@ -19,6 +19,6 @@ jobs:
 
     steps:
 
-    - name: Test with bat
+    - name: Test with batch
       shell: pwsh
       run: batch.bat
