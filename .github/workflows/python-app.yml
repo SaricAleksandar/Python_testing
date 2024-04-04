@@ -25,4 +25,4 @@ jobs:
           echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
           
       - name: Test with batch
-        run: .\batch.bat
+        run: batch.bat
