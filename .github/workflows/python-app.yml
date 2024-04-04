@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: LocalVM
+    runs-on: self-hosted
 
     steps:
 
