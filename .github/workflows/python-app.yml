@@ -20,5 +20,4 @@ jobs:
     steps:
 
     - name: Test with pytest
-      run: |
-        python ModBus.py
+      run: batch.bat
