@@ -20,4 +20,4 @@ jobs:
     steps:
 
     - name: Test with batch
-      run: batch.bat
+      run: .\batch.bat
